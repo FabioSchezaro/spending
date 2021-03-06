@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Spending.Domain.Interfaces\Spending.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Spending.Domain.Shared\Spending.Domain.Shared.csproj" />
+    <ProjectReference Include="..\Spending.Token\Spending.Token.csproj" />
+  </ItemGroup>
+
+</Project>
